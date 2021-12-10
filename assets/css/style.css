@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper{
+    margin: 0 auto;
+    padding: 0 15px;
+    max-width: calc(1160px + 30px);
+}
+header{
+    height: 83px;
+    border-bottom: 1px solid #E1E3E3;
+}
+.header-content{
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+ 
+}
+.header-logo{
+    margin-top: 13px;
+}
+.menu{
+    margin-left: 220px;
+}
+.menu ul{
+    display: flex;
+    
+}
+
+.menu ul li{
+    padding-left: 25px;
+    
+}
+.menu ul  li a{
+    color: black;
+    font-weight: bold;
+    padding: 6px;
+}
+
+.menu ul li a:hover{
+  
+    background-color: black;
+    color: white;
+}
+
+.search-bar{
+    margin-left: 20px;
+   padding-top: 10px;
+    position: relative;
+  
+}
+.search-bar input{
+    height: 25px;
+    width: 230px;
+    padding: 10px 15px;
+    background-color: #F5F5F5;
+    border: none;
+}
+.search-bar i{
+position: absolute;
+margin-left: -25px;
+margin-top: 3px;
+color: #7D7F85;
+}
+.header-btns{
+    margin-left: 10 px;
+    margin-top: 10px;
+}
+.sign-in{
+    background-color: white;
+    border: none;
+    color: #807F85;
+    font-weight: bold;
+    margin-left: 10px;
+}
+.sign-up{
+    padding: 7px;
+    width: 70px;
+    background-color: #3074F7;
+    border: none;
+    color: white;
+    font-weight: bold;
+}
+.sign-up:hover{
+    background-color: black;
+}
+
+
+
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 30px;
+    border-top: 1px solid #F5F6F6;
+    border-bottom: 1px solid #F5F6F6;
+    margin-top: 24px;
+}
+
+.img-para{
+  
+    display: flex;
+    
+}
+.success-logo{
+    padding: 15px;
+    
+}
+.para-1{
+    width: 420px;
+    padding: 15px;
+    color: #C6B9C0;
+}
+ul{
+    margin-top: 25px;
+}
+li{
+    margin-bottom: 15px;
+    list-style: none;
+    color: #C6B9C0;
+}
+.icons{
+    display: flex;
+    margin-top: 25px;
+}
+.icons li{
+    
+    border-radius: 50%;
+    padding: 10px;
+    color: white;
+    background-color: #4A74F5;
+    margin-right: 5px;
+}
+.icons li:hover{
+    background-color: black;
+}
+.fa-wifi{
+    transform: rotate(50deg);
+}
+.fa-facebook{
+    padding:0 5px;
+}
+p{
+    margin-top: 24px;
+ 
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color: #C6B9C0;
+}
+
+a:hover{
+    color: #88AFDC;
+}
+.code-2{
+    color: #6176F8;
+}
+.code-2:hover{
+    color: black;
+}
