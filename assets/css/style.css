@@ -23,7 +23,7 @@ header{
     margin-top: 13px;
 }
 .menu{
-    margin-left: 220px;
+    margin-left: 160px;
 }
 .menu ul{
     display: flex;
@@ -35,16 +35,41 @@ header{
     
 }
 .menu ul  li a{
-    color: black;
+    color:black;
     font-weight: bold;
     padding: 6px;
 }
+
 
 .menu ul li a:hover{
   
     background-color: black;
     color: white;
 }
+
+.home{
+    background-color: red;
+    color:#fff;    
+}
+
+
+/* .menu ul li .a-1:active{
+  
+    background-color: black;
+    color: white;
+} */
+
+
+
+/* .menu nav ul li a:active{
+    background-color: black;
+    color: white;
+}
+
+.menu nav ul li a:visited{
+    background-color: white;
+    color: black;
+} */
 
 .search-bar{
     margin-left: 20px;
@@ -75,6 +100,12 @@ color: #7D7F85;
     color: #807F85;
     font-weight: bold;
     margin-left: 10px;
+    width: 70px;
+    padding: 7px;
+}
+.sign-in:hover{
+    background-color: red;
+    color: white;
 }
 .sign-up{
     padding: 7px;
