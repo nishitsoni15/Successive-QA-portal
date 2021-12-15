@@ -1,0 +1,391 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#LeftSidebar {
+  width: 23%;
+  background-color: #F2F2F2;
+  border: 1px solid #E1E3E3;
+  height: 100vh;
+}
+
+#center-component {
+  border: 1px  solid #E1E3E3;
+  width: 54%;
+  position: relative;
+  margin: 0 auto;
+}
+
+#center-component .search-sec {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  border-top: 1px solid #E1E3E3;
+  border-bottom: 1px solid #E1E3E3;
+  padding: 18px 0px;
+}
+
+#center-component .search-sec img {
+  border-radius: 24px;
+  width: 6%;
+}
+
+#center-component .search-sec input {
+  padding: 9px 8px;
+  width: 87%;
+}
+
+#center-component .tab-sec button {
+  padding: 18px 19px;
+  border: none;
+  background-color: transparent;
+}
+
+#center-component .tab-sec button h4 {
+  color: #7C7F85;
+  font-size: 15px;
+}
+
+#center-component .query .comp-head {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  border-top: 2px solid #7C7F85;
+  padding-top: 24px;
+}
+
+#center-component .query .comp-head img {
+  width: 8%;
+  height: 1%;
+  border-radius: 28px;
+}
+
+#center-component .query .comp-head .comp-header {
+  width: 80%;
+}
+
+#center-component .query .comp-head .comp-header h4 {
+  color: #2D6FF7;
+}
+
+#center-component .query .comp-head .comp-header h4 a {
+  background-color: #2D6FF7;
+  color: white;
+  font-size: 9px;
+  display: inline-block;
+  padding: 2px;
+}
+
+#center-component .query .comp-head .comp-header h2 {
+  padding-top: 10px;
+  font-size: 22px;
+}
+
+#center-component .query .info {
+  width: 68%;
+  font-size: 17px;
+  padding-top: 10px;
+  margin: 0 auto;
+  line-height: 1.5;
+  color: #949B9F;
+}
+
+#Rightsidebar {
+  width: 23%;
+}
+
+#Rightsidebar .inner-sidebar {
+  border-left: 1px solid #E1E3E3;
+  border-right: 1px solid #E1E3E3;
+}
+
+#Rightsidebar .inner-sidebar h2 {
+  font-weight: 800;
+  padding: 10px 28px;
+}
+
+#Rightsidebar .inner-sidebar .stats-widget {
+  padding: 10px 24px;
+}
+
+#Rightsidebar .inner-sidebar .stats-widget .stats-widget-top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#Rightsidebar .inner-sidebar .stats-widget .stats-widget-top div {
+  padding: 10px 31px;
+  border: 1px solid #E1E3E3;
+  border-radius: 4px;
+}
+
+#Rightsidebar .inner-sidebar .stats-widget .stats-widget-top div .stats-text {
+  padding: 6px 2px;
+  font-weight: 300;
+}
+
+#Rightsidebar .inner-sidebar .stats-widget .stats-widget-top div .stats-count {
+  padding: 4px;
+  text-align: center;
+}
+
+#Rightsidebar .inner-sidebar .stats-widget .stats-widget-down {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#Rightsidebar .inner-sidebar .stats-widget .stats-widget-down div {
+  padding: 10px 22px;
+  border: 1px solid #E1E3E3;
+  border-radius: 4px;
+}
+
+#Rightsidebar .inner-sidebar .stats-widget .stats-widget-down div .stats-text {
+  padding: 6px 2px;
+  font-weight: 300;
+}
+
+#Rightsidebar .inner-sidebar .stats-widget .stats-widget-down div .stats-count {
+  padding: 4px;
+  text-align: center;
+}
+
+#Rightsidebar .inner-sidebar .stats-widget .stats-widget-down .users {
+  padding: 10px 40px;
+  border: 1px solid #E1E3E3;
+  border-radius: 4px;
+}
+
+#Rightsidebar #tab-container {
+  border-top: 2px solid #E1E3E3;
+  border-left: 1px solid #E1E3E3;
+  border-right: 1px solid #E1E3E3;
+}
+
+#Rightsidebar #tab-container .tabs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #F9F9F9;
+  padding-top: 44px;
+  padding-left: 24px;
+  border-bottom: 1px solid #E1E3E3;
+}
+
+#Rightsidebar #tab-container .tabs .tab-button {
+  border: 1px solid #E1E3E3;
+  background-color: #fff;
+  padding: 17px 16px;
+  color: #747888;
+}
+
+#Rightsidebar #tab-container .tabs .tab-button:hover {
+  color: #000;
+}
+
+#Rightsidebar #tab-container .tabs .tab-button-1 {
+  border-left: 1px solid #E1E3E3;
+  border-right: 1px solid #E1E3E3;
+  background-color: #747888;
+  color: #fff;
+}
+
+#Rightsidebar #tab-container .content .popular-content.top-members {
+  border: 1px solid #E1E3E3;
+  padding-bottom: 40px;
+}
+
+#Rightsidebar #tab-container .content .popular-content .heading {
+  font-size: 17px;
+  padding: 28px 35px;
+  border-top: 2px solid #E1E3E3;
+}
+
+#Rightsidebar #tab-container .content .popular-content ul {
+  width: 100%;
+}
+
+#Rightsidebar #tab-container .content .popular-content ul li {
+  list-style: none;
+  width: 90%;
+  margin: 0 auto;
+  padding-top: 20px;
+}
+
+#Rightsidebar #tab-container .content .popular-content ul li.que-list {
+  border-bottom: 1px solid #E1E3E3;
+}
+
+#Rightsidebar #tab-container .content .popular-content ul li figure {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#Rightsidebar #tab-container .content .popular-content ul li figure img {
+  border-radius: 20px;
+  width: 32px;
+}
+
+#Rightsidebar #tab-container .content .popular-content ul li figure figcaption {
+  width: 85%;
+  font-size: 18px;
+  color: #000;
+}
+
+#Rightsidebar #tab-container .content .popular-content ul li figure figcaption .member-name {
+  font-size: 18px;
+  color: #2D6FF7;
+  padding-left: 10px;
+}
+
+#Rightsidebar #tab-container .content .popular-content ul li figure figcaption .member-name:hover {
+  color: #000;
+}
+
+#Rightsidebar #tab-container .content .popular-content ul li figure figcaption:hover {
+  color: #2D6FF7;
+}
+
+#Rightsidebar #tab-container .content .popular-content ul li .que-point {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+#Rightsidebar #tab-container .content .popular-content ul li span {
+  padding: 5px 2px;
+}
+
+#Rightsidebar #tab-container .content .popular-content ul li span p {
+  color: gray;
+  font-size: 14px;
+  text-align: center;
+}
+
+#Rightsidebar #tab-container .content .popular-content ul li span p:hover {
+  color: #2D6FF7;
+}
+
+#Rightsidebar #tab-container .content .popular-content ul li button {
+  border: none;
+  border-radius: 1px;
+  font-size: 13px;
+  padding: 3px;
+  margin: 2px 46px;
+  color: #fff;
+}
+
+#Rightsidebar #tab-container .content .popular-content ul li .Enlightened {
+  background-color: #D9A34A;
+}
+
+#Rightsidebar #tab-container .content .popular-content ul li .Professional {
+  background-color: #7363E4;
+}
+
+#Rightsidebar #tab-container .content .popular-content ul li .Explainer {
+  background-color: #57AA70;
+}
+
+#Rightsidebar #tab-container .content .answers-content {
+  display: none;
+}
+
+#Rightsidebar #tab-container .content .answers-content ul li {
+  list-style: none;
+  width: 90%;
+  margin: 0 auto;
+  padding: 20px 10px;
+}
+
+#Rightsidebar #tab-container .content .answers-content ul li figure {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#Rightsidebar #tab-container .content .answers-content ul li figure img {
+  border-radius: 20px;
+  width: 27px;
+  height: 30px;
+}
+
+#Rightsidebar #tab-container .content .answers-content ul li figure figcaption {
+  width: 85%;
+  font-size: 12px;
+  color: #747888;
+}
+
+#Rightsidebar #tab-container .content .answers-content ul li figure figcaption .name {
+  color: #000;
+  font-size: 12px;
+}
+
+#Rightsidebar #tab-container .content .answers-content ul li figure figcaption .name:hover {
+  color: #2D6FF7;
+}
+
+#Rightsidebar #tab-container .content .answers-content ul li figure figcaption p {
+  color: #000;
+  font-size: 12px;
+}
+
+#Rightsidebar #tab-container .content .answers-content ul li figure figcaption p:hover {
+  color: #2D6FF7;
+}
+
+#Rightsidebar #tab-container .content .answers-content ul li .ddt {
+  color: #747888;
+  font-size: 13px;
+  display: block;
+  padding: 8px 40px;
+}
+
+#Rightsidebar #tab-container .member-list {
+  border: none;
+}
+
+#Rightsidebar #trending-tags {
+  margin: 0 auto;
+  border: 1px solid #E1E3E3;
+  padding: 15px;
+}
+
+#Rightsidebar #trending-tags .tags {
+  padding: 4px 0px;
+}
+
+#Rightsidebar #trending-tags .tags a {
+  border: 1px solid #E1E3E3;
+  padding: 2px;
+  color: #949B9F;
+  font-size: 14px;
+  margin: 2px 1px;
+  border-radius: 2px;
+  display: inline-block;
+}
+/*# sourceMappingURL=main.css.map */

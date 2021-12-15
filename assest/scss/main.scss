@@ -1,0 +1,341 @@
+*{
+    margin:0;
+    padding :0;
+    
+}
+@mixin stats-taxt{
+  padding: 6px 2px;
+  font-weight: 300;
+}
+@mixin stats-count {
+  padding: 4px;
+   text-align: center;
+}
+.wrap{
+  display: flex;
+}
+#LeftSidebar{
+  width:23%;
+  background-color: #F2F2F2;
+  border:  1px solid #E1E3E3;
+  // float: left;
+  height: 100vh;
+  
+}
+
+#center-component{
+  border: 1px  solid #E1E3E3 ;
+      width: 54%;
+      position: relative;
+      margin: 0 auto;
+     
+      .search-sec{
+        display: flex;
+        justify-content: space-around;
+        border-top:  1px solid #E1E3E3;
+        border-bottom:  1px solid #E1E3E3;
+        padding: 18px 0px;
+        img{
+          border-radius: 24px;
+          width: 6%;
+        }
+        input{
+          padding: 9px 8px;
+              width: 87%;
+        }
+      }
+      .tab-sec{
+        button{
+          padding: 18px 19px;
+          border: none;
+          background-color: transparent;
+          h4{
+             color: #7C7F85;
+             font-size: 15px;
+          }
+        }
+      }
+      .query{
+        .comp-head{
+          display: flex;
+    justify-content: space-evenly;
+    border-top: 2px solid #7C7F85;
+        padding-top: 24px;
+    img{
+      width: 8%;
+    height: 1%;
+    border-radius: 28px;
+    }
+    .comp-header{
+      width: 80%;
+      h4{
+        color: #2D6FF7;
+        a{
+          background-color: #2D6FF7;
+          color: white;
+          font-size: 9px;
+display: inline-block;
+padding: 2px;
+        }
+      }
+      h2{
+        padding-top: 10px;
+        font-size: 22px;
+      }
+    }
+        }
+    .info{     
+    width: 68%;
+    font-size: 17px;
+    padding-top: 10px;
+    margin: 0 auto;
+    line-height: 1.5;
+    color: #949B9F;
+        }
+      }
+}
+
+
+
+
+
+
+
+#Rightsidebar{
+   width: 23%;
+  //  float: right;
+   .inner-sidebar{
+    border-left: 1px solid #E1E3E3;
+    border-right: 1px solid #E1E3E3;
+        h2{
+          font-weight: 800;
+          padding: 10px 28px;
+        }
+        .stats-widget{
+            padding: 10px 24px;
+          .stats-widget-top{
+            display: flex;
+             div{
+              padding: 10px 31px;
+              border: 1px solid #E1E3E3;
+              border-radius: 4px;
+            
+              .stats-text{
+              @include stats-taxt();
+              }
+              .stats-count{
+             @include stats-count();
+              }
+            }
+          }
+          .stats-widget-down{
+            display: flex;
+            div{
+            padding: 10px 22px;
+            border: 1px solid #E1E3E3;
+            border-radius: 4px;
+          .stats-text{
+              @include stats-taxt();
+            }
+            .stats-count{
+             @include stats-count();
+            }
+          }
+          .users{
+            padding: 10px 40px;
+          border: 1px solid #E1E3E3;
+          border-radius: 4px;
+          
+          }
+        }
+      }
+    }
+
+#tab-container{
+  border-top: 2px solid #E1E3E3;
+  border-left: 1px solid #E1E3E3;
+  border-right: 1px solid #E1E3E3;
+  .tabs{
+    display: flex;
+    background-color: #F9F9F9;
+    padding-top: 44px;
+    padding-left: 24px;
+    border-bottom: 1px solid #E1E3E3;
+    .tab-button{
+    border: 1px solid #E1E3E3;
+    background-color: #fff;
+    padding: 17px 16px; 
+    color: rgb(116,120,136);
+    }
+    .tab-button:hover{
+      color: #000;
+    }
+    // .tab-button:active{
+    //   border-top: 1px solid #E1E3E3;
+    //   border-left: 1px solid #E1E3E3;
+    //   border-right: 1px solid #E1E3E3;
+    //   background-color: blue;
+    //   color: #000;
+
+    // }
+    .tab-button-1{
+      border-left: 1px solid #E1E3E3;
+      border-right: 1px solid #E1E3E3;
+      background-color: rgb(116,120,136);
+      color: #fff
+    }
+  }
+  .content{
+    .popular-content{
+// display: none;
+&.top-members{
+  border: 1px solid #E1E3E3;
+  padding-bottom: 40px;
+}
+.heading{
+  font-size: 17px;
+  padding: 28px 35px;
+  border-top: 2px solid #E1E3E3;
+}
+ul{
+  width: 100%;
+  
+  li{
+    list-style: none;
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 20px;
+    // border-bottom: 1px solid #E1E3E3;
+    &.que-list{
+      border-bottom: 1px solid #E1E3E3;
+    }
+    figure{
+      display: flex;
+      justify-content: space-between;
+      img{
+       border-radius: 20px;
+       width: 32px;
+      }
+      figcaption{
+     width: 85%;
+     font-size: 18px;
+     color:#000 ;
+     .member-name{
+       font-size: 18px;
+       color: #2D6FF7;
+       padding-left: 10px;
+     }
+     .member-name:hover{
+      color:#000 ;
+     }
+      }
+      figcaption:hover{
+        color: #2D6FF7;
+      }  
+    }
+    .que-point{
+      display: flex;
+      justify-content: space-evenly;
+    }
+    span{
+      padding: 5px 2px;
+      p{
+        color:gray;
+        font-size: 14px;
+        text-align: center;
+      }
+      p:hover{
+        color: #2D6FF7;
+      }
+    }
+    button{
+     
+      border: none;
+      border-radius: 1px;
+      font-size: 13px;
+      padding: 3px;
+      margin: 2px 46px;
+      color: #fff;
+    }
+    .Enlightened{
+      background-color: #D9A34A;
+    }
+    .Professional{
+      background-color: #7363E4;
+    }
+    .Explainer{
+      background-color: #57AA70;
+    }
+  }
+}
+}
+// SCSS for Answer tab
+   .answers-content{
+      display: none;
+      ul{
+        li{
+          list-style: none;
+          width: 90%;
+          margin: 0 auto;
+          padding: 20px 10px;
+          figure{
+            display: flex;
+            justify-content: space-between;
+            img{
+              border-radius: 20px;
+              width: 27px;
+              height:30px ;
+            }
+            figcaption{
+              width: 85%;
+              font-size: 12px;
+              color: rgb(116,120,136);
+              .name{
+                color: #000;
+                font-size: 12px;
+              }
+              .name:hover{
+                color: #2D6FF7;
+              }
+              p{
+                color: #000;
+                font-size: 12px;
+              }
+              p:hover{
+                color: #2D6FF7;
+              }
+            }  
+          }
+          .ddt{
+            color: rgb(116,120,136);
+            font-size: 13px;
+            display: block;
+            padding: 8px 40px;
+          }
+        }
+      }
+    }
+  }
+  .member-list{
+    border: none;
+  }
+}
+#trending-tags{
+  margin: 0 auto;
+  border: 1px solid #E1E3E3;
+  padding: 15px;
+  .tags{
+    padding: 4px 0px;
+  a{
+    border: 1px solid #E1E3E3;
+    padding: 2px;
+    color: #949B9F;
+    font-size: 14px;
+    margin: 2px 1px;
+    border-radius: 2px;
+    display: inline-block;
+  }
+}
+}
+}
+
